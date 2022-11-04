@@ -1,4 +1,6 @@
 module.exports = {
-    sumar : (a,b) => a + b,
+    sumar : (a,b) => {
+        return !a || !b ? "faltan datos" : a + b
+    },
     restar : (a,b) => a - b
 }
