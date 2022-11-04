@@ -1,4 +1,4 @@
-const {sumar, restar} = require('./modulos/calculadora')
+const {sumar, restar, multiplicar} = require('./modulos/calculadora')
 switch (comando) {
     case "sumar":
         console.log(sumar(2,3))
@@ -7,7 +7,10 @@ switch (comando) {
         console.log(restar(2,3))
 
         break;
+        case "multiplicar":
+            console.log(multiplicar(2,3))
     
+            break;
 
     default:
         break;
